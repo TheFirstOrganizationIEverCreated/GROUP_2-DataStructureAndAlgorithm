@@ -1,0 +1,3 @@
+Since the cin of C++ is too ******g annoying to handle its exceptions,
+we'll use C# instead.
+----------------------------------------------------------------------------------------------------
