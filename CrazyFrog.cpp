@@ -12,8 +12,10 @@ class CrazyFrog
 			{
 				case 1:
 					return 1;
+					break;
 				case 2:
 					return 2;
+					break;
 			}
 			
 			return getTotalWaysToJump(targetedStep - 1) + getTotalWaysToJump(targetedStep - 2);
@@ -53,7 +55,7 @@ int main()
 		// int totalWaysToJump = CrazyFrog.getTotalWaysToJump(targetedStep);
 		// cout << "\nThere're total  " << totalWaysToJump << " ways  to jump from step 0 to step " << targetedStep << endl;
 		
-		cout << "\nThere're total  " << CrazyFrog.getTotalWaysToJump(targetedStep) << " ways  to jump from step 0 to step " << targetedStep << endl;
+		cout << "\nThere're total  " << CrazyFrog::getTotalWaysToJump(targetedStep) << " ways  to jump from step 0 to step " << targetedStep << endl;
 		break;
 	}
 	
