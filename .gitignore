@@ -1,4 +1,5 @@
 **/*.vs
+**/*.vscode
 **/*.txt.bak
 TheCrazyFrog/TheCrazyFrog/bin/
 TheCrazyFrog/TheCrazyFrog/obj/
