@@ -24,6 +24,7 @@ int main()
 	{
 		printf("\nWrong input, the target leaf obviously can't be less than 1, please try again  (:\n");
 		main();
+                return -1;
 	}
 	
 	// int totalWaysToJump = getTotalWaysToJump(targetedLeaf);
