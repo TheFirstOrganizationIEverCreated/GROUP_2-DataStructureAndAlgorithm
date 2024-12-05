@@ -28,11 +28,11 @@ int main()
 	}
 	
 	// int totalWaysToJump = getTotalWaysToJump(targetedLeaf);
-	// printf("\nThere're total  %d ways  to jump from leaf 0 to leaf targetedLeaf  :)\n", totalWaysToJump);
+	// printf("\nThere're total  %d ways  to jump from leaf 0 to leaf %d  :)\n", totalWaysToJump, targetedLeaf);
 	
 	printf("\nThere're total  %d ways  to jump from leaf 0 to leaf %d  :)\n", getTotalWaysToJump(targetedLeaf), targetedLeaf);
 	
-	// prevents the CLI from closing too soon
+	// prevents the CLI closing too soon
 	printf("\nPlease enter an integer to end the program  :))\n");
 	scanf("%*d");
 	return 0;
